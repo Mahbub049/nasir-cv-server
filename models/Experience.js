@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const experienceSchema = new mongoose.Schema({
-  title: String,
+  designation: String,
   department: String,
   institution: String,
   address: String,
